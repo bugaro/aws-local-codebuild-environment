@@ -4,7 +4,7 @@
 
 `docker pull public.ecr.aws/codebuild/local-builds:latest`
 
-## For test `cd` to project folder **[buildspec.yml](https://docs.aws.amazon.com/codebuild/latest/userguide/build-spec-ref.html)** run in terminal:
+## For test `cd` to project folder where is **[buildspec.yml](https://docs.aws.amazon.com/codebuild/latest/userguide/build-spec-ref.html)** run in terminal:
 
 `./codebuild_build.sh -i public.ecr.aws/codebuild/local-builds -a ./artifacts`
 
