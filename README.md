@@ -24,7 +24,7 @@
 
 ### Pull node image from **[dockerhub](https://hub.docker.com/_/node)**
 
-## Run in terminal:
+### Run in terminal:
 
 `./codebuild_build.sh -i node:[tag] -a ./artifacts`
 
