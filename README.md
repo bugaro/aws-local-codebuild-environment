@@ -19,3 +19,20 @@
 - **`-m`** Used to mount the source directory to the customer build container directly."
 
 ### [MORE DETAILS](https://github.com/aws/aws-codebuild-docker-images/blob/master/local_builds/codebuild_build.sh#L31)
+
+## CODEBUILD WITH NODEJS
+
+### Pull node image from **[dockerhub](https://hub.docker.com/_/node)**
+
+## Run in terminal:
+
+`./codebuild_build.sh -i node:[tag] -a ./artifacts`
+
+```yml
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - npm -version
+```
