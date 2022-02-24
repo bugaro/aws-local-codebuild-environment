@@ -32,6 +32,9 @@
 version: 0.2
 
 phases:
+  install:
+    runtime-versions:
+      nodejs: [version]
   build:
     commands:
       - npm -version
